@@ -1,0 +1,46 @@
+.container{
+    background-color: antiquewhite;
+    width: 960px;
+    padding: 0 15px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+}
+
+.title-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.count{
+    color: cornflowerblue;
+}
+
+#addContactModalButton{
+    background: cornflowerblue ;
+    color: aliceblue;
+    cursor: pointer;
+    padding: 14px 20px;
+    margin: 8px 0px;
+    border: 2px solid cornflowerblue ;
+}
+
+.table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table td, table th{
+    border: 2px solid slategrey; 
+    padding: 10px;
+    text-align: left;
+}
+.table tr td:hover{
+    background-color: cornflowerblue;
+}
+.table th{
+    background-color: cornflowerblue;
+    color: white;
+    padding: 10px 0px;
+}
