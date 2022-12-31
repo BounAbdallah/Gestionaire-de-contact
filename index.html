@@ -14,20 +14,27 @@
             <button id="addContactModalButton" type="button">Ajouter un contact</button>
         </div>
         <!--Modele-->
-        <div class="modal-content">
-            <div>
-              <span class="clo">X</span>
-              <div class="form">
-                <form method="post">
-                    <label for="name">Nom complet</label></form>
-                    <input type="text" id="name" name="name">
-
-                    <label for="email">Email</label></form>
-                    <input type="email" id="Email" name="mail"> 
-                    <label for="name">Nom complet</label></form>
-                    <input type="text" id="name" name="name">
-              </div>
-            </div>
+      <div>
+        <div class="modal" id="contactModal">
+            <div class="modal-content">
+                <div>
+                  <span class="close">X</span>
+                  <div class="form">
+                    <form method="post">
+                        <label for="name">Nom complet</label></form>
+                        <input type="text" id="name" name="name">
+    
+                        <label for="email">Email</label></form>
+                        <input type="email" id="email" name="mail"> 
+    
+                        <label for="telephone">Téléphone</label></form>
+                        <input type="number" id="telephone" name="telephone">
+    
+                        <button type="submit" class="addContac">Ajouter un contact</button>
+                  </div>
+                </div>
+        </div>
+      </div>
 
         </div>
         <div class="contact">
@@ -66,5 +73,6 @@
             </table>
         </div>
     </div>
+    <script src="index.js"></script>
 </body>
 </html>
